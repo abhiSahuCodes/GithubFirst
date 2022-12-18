@@ -6,7 +6,7 @@
 body{
     max-width: 1440px;
     margin: auto;
-    background-color: #000000;
+    background-color: #161616;
     overflow:auto;
     overflow-x: hidden;
     box-sizing: border-box;
@@ -188,7 +188,7 @@ body{
 /* !----Second-page---- */
 
 .second-page{
-    margin: 0 5%;
+    margin: 8% 5% 0;
 }
 .payment{
     display: flex;
@@ -226,7 +226,8 @@ body{
 }
 
 .first-card{
-    border: 2px solid white;
+    border: 1.5px solid;
+    border-image: linear-gradient(to bottom right, #b9b5b5, #000000) 70;
     width: 20rem;
     height: 20rem;
     display: flex;
@@ -234,11 +235,13 @@ body{
     align-items: center;
     justify-content: center;
     gap: 10%;
+    background-color: #2d2c2c;
 
 }
 
 .second-card{
-    border: 2px solid white;
+    border: 2px solid;
+    border-image: linear-gradient(to bottom right, #ffffff, #8c8383) 30;
     width: 20rem;
     height: 20rem;
     display: flex;
@@ -249,10 +252,12 @@ body{
     gap: 10%;
     position: relative;
     bottom: 3rem;
+    background-image: linear-gradient(to bottom right, #4e4b4b, #858080);
 }
 
 .third-card{
-    border: 2px solid white;
+    border: 1.5px solid;
+    border-image: linear-gradient(to bottom right, #b9b5b5, #000000) 70;
     width: 20rem;
     height: 20rem;
     display: flex;
@@ -260,6 +265,8 @@ body{
     align-items: center;
     justify-content: center;
     gap: 10%;
+    /* background-color: #232323; */
+    background-color: #2d2c2c;;
 }
 
 /* !----Third-page---- */
