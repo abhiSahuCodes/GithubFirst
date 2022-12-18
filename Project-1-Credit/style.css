@@ -266,7 +266,7 @@ body{
     justify-content: center;
     gap: 10%;
     /* background-color: #232323; */
-    background-color: #2d2c2c;;
+    background-color: #2d2c2c;
 }
 
 /* !----Third-page---- */
@@ -350,10 +350,12 @@ body{
 
 
 .box-1{
-    border: 1px solid #F637EC;
+    border: 2px solid;
+    border-image: linear-gradient(to bottom right, #ffffff, #8c8383) 30;
     padding: 1.5rem 1.5rem 0;
     line-height: 1.5;
     height: 230px;
+    background-image: linear-gradient(to bottom right, #4e4b4b, #858080);
 }
 
 .box-1 p:nth-of-type(1){
@@ -361,9 +363,11 @@ body{
 }
 
 .box-2{
-    border: 1px solid #F637EC;
+    border: 1.5px solid;
+    border-image: linear-gradient(to bottom, #b9b5b5, #000000) 70;
     padding: 1.5rem;
     line-height: 1.5;
+    background-color: #2d2c2c;
 }
 
 .box-2 p:nth-of-type(1){
@@ -371,9 +375,11 @@ body{
 }
 
 .box-3{
-    border: 1px solid #F637EC;
+    border: 1.5px solid;
+    border-image: linear-gradient(to bottom, #b9b5b5, #000000) 70;
     padding: 1.5rem;
     line-height: 1.5;
+    background-color: #2d2c2c;
 }
 
 .box-3 p:nth-of-type(1){
@@ -381,9 +387,11 @@ body{
 }
 
 .box-4{
-    border: 1px solid #F637EC;
+    border: 1.5px solid;
+    border-image: linear-gradient(to bottom, #b9b5b5, #000000) 70;
     padding: 1.5rem;
     line-height: 1.5;
+    background-color: #2d2c2c;
 }
 
 .box-4 p:nth-of-type(1){
