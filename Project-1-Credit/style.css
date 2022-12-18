@@ -474,3 +474,13 @@ body{
     width: 4rem;
     height: 2rem;
 }
+
+/* !---Footer--- */
+
+footer{
+    display: flex;
+}
+
+.list-2{
+    display: flex;
+}
