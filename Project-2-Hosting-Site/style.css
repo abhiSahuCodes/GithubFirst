@@ -336,7 +336,7 @@ body{
     margin: 0 5%;
     display: flex;
     justify-content: space-between;
-    padding: 5% 0;
+    padding: 5% 0 10%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -350,6 +350,12 @@ body{
     gap: 1rem;
     border: none;
     border-radius: 2rem;
+    transition: 0.3s;
+}
+
+.regular:hover{
+    cursor: pointer;
+    scale: 1.1;
 }
 
 .facility-regular{
@@ -376,6 +382,12 @@ body{
     background-color: #0C8BFD;
     border: none;
     color: #ffffff;
+    transition: 0.3s;
+}
+
+.select-regular:hover{
+    cursor: pointer;
+    scale: 1.1;
 }
 
 .regular h3{
@@ -415,6 +427,12 @@ body{
     border: none;
     border-radius: 2rem;
     color: #ffffff;
+    transition: 0.3s;
+}
+
+.standard:hover{
+    cursor: pointer;
+    scale: 1.1;
 }
 
 .facility-standard{
@@ -442,6 +460,12 @@ body{
     color: #0C8BFD;
     border: none;
     background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.select-standard:hover{
+    cursor: pointer;
+    scale: 1.1;
 }
 
 .standard h3{
@@ -481,6 +505,12 @@ body{
     gap: 1rem;
     border: none;
     border-radius: 2rem;
+    transition: 0.3s;
+}
+
+.premium:hover{
+    cursor: pointer;
+    scale: 1.1;
 }
 
 .facility-premium{
@@ -508,6 +538,12 @@ body{
     background-color: #0C8BFD;
     border: none;
     color: #ffffff;
+    transition: 0.3s;
+}
+
+.select-premium:hover{
+    cursor: pointer;
+    scale: 1.1;
 }
 
 .premium h3{
@@ -534,4 +570,26 @@ body{
 .p-6{
     font-size: 1rem;
     color: #373636;
+}
+
+/* !----Fourth-page---- */
+
+.review-panel{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.review-panel h2{
+
+}
+
+.panel-one{
+    border: 1px solid black;
+}
+
+.panel-two{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 }
