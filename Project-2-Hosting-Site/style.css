@@ -333,7 +333,6 @@ body{
 /* &----Subscription-panel---- */
 
 .subscription-panel{
-    border: 2px solid white;
     margin: 0 5%;
     display: flex;
     justify-content: space-between;
@@ -345,7 +344,7 @@ body{
 
 .regular{
     background-color: #ffffff;
-    padding: 2% 3%;
+    padding: 3.5% 3%;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -360,7 +359,7 @@ body{
     gap: 1rem;
     margin: 1rem 0;
     border-top: 2px solid #E4E4E4;
-    padding-top: 10%;
+    padding-top: 17%;
 }
 
 .facility-regular p{
@@ -409,12 +408,13 @@ body{
 
 .standard{
     background-color: #0C8BFD;
-    padding: 2% 4.5% 2% 3%;
+    padding: 3.5% 3.3% 2% 3.5%;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     border: none;
     border-radius: 2rem;
+    color: #ffffff;
 }
 
 .facility-standard{
@@ -425,6 +425,7 @@ body{
     margin: 1rem 0;
     border-top: 2px solid #5EB2FD;
     padding-top: 10%;
+    padding-right: 2.8rem;
 }
 
 .facility-standard p{
@@ -467,5 +468,70 @@ body{
 .p-4{
     font-size: 1rem;
     color: #373636;
+    color: #ffffff;
 }
 
+/* todo----Premium-panelbox */
+
+.premium{
+    background-color: #ffffff;
+    padding: 3% 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.facility-premium{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    border-top: 2px solid #E4E4E4;
+    padding-top: 10%;
+    padding-right: 2.3rem;
+}
+
+.facility-premium p{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.select-premium{
+    margin: 2% 0;
+    padding: 5% 0;
+    font-size: 1.2rem;
+    border-radius: 10%/50%;
+    background-color: #0C8BFD;
+    border: none;
+    color: #ffffff;
+}
+
+.premium h3{
+    font-size: 2rem;
+}
+
+.p-5{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.spp-one{
+    font-size: 3rem;
+    color: #888787;
+    position: relative;
+    top: 0.4rem;
+}
+
+.spp-two{
+    font-size: 1.8rem;
+    color: #888787;
+}
+
+.p-6{
+    font-size: 1rem;
+    color: #373636;
+}
