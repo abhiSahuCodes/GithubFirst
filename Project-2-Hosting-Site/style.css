@@ -574,6 +574,10 @@ body{
 
 /* !----Fourth-page---- */
 
+.fourth-page{
+    padding: 5% ;
+}
+
 .review-panel{
     border: 2px solid black;
     display: flex;
@@ -590,6 +594,10 @@ body{
 
 .panel-two{
     border: 1px solid black;
+}
+
+.review-one{
     display: flex;
     flex-direction: column;
+    gap: 2rem;
 }
