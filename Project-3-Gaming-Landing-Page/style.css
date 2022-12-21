@@ -162,3 +162,257 @@ body{
     position: relative;
     left: 4rem;
 }
+
+/* !----Second-section */
+
+
+.heading-second{
+    margin: 12% 8% 4% 8%;
+}
+
+h2{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+}
+
+/* &----Game-cards---- */
+
+.game-cards{
+    margin: 0 8% 4% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ?----Area-soldiers */
+
+.imageFrame{
+    width: 250px;
+    height: 300px;
+    background-image: url(./Assets/Photos/image\ 2.png);
+    background-position: center;
+    background-size: cover;
+    background-position: left 19rem center;
+}
+
+.text-button-card-1{
+    position: relative;
+    top: 210px;
+    padding: 4% 3%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    background-color: rgb(71,76,78, 0.95);
+    justify-content: space-between;
+
+}
+
+.description-text p:first-child{
+    font-size: 0.9rem;
+    color: #FAFAFB;
+    font-weight: 700;
+}
+
+.description-text p:nth-child(2){
+    color: #b0b8b8;
+    font-size: 0.8rem;
+}
+
+.stars img{
+    width: 0.7rem;
+    padding-right: 0.4rem;
+}
+
+.button-download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-orange{
+    padding: 0.6rem 1rem;
+    background-color: #F4694C;
+    color: #FAFAFB;
+    font-weight: 700;
+    border: none;
+
+}
+
+.description-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.17rem;
+}
+
+/* ?----Area-warriors---- */
+
+.imageFrame-2{
+    width: 250px;
+    height: 300px;
+    background-image: url(./Assets/Photos/image\ 4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.text-button-card-2{
+    position: relative;
+    top: 210px;
+    padding: 4% 3%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    background-color: rgba(27, 27, 21, 0.98);
+    justify-content: space-between;
+    /* rgb(38,38,29, 0.98) */
+}
+
+.description-text p:first-child{
+    font-size: 0.9rem;
+    color: #FAFAFB;
+    font-weight: 700;
+}
+
+.description-text p:nth-child(2){
+    color: #b0b8b8;
+    font-size: 0.8rem;
+}
+
+.stars img{
+    width: 0.7rem;
+    padding-right: 0.4rem;
+}
+
+.button-download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-orange{
+    padding: 0.6rem 1rem;
+    background-color: #F4694C;
+    color: #FAFAFB;
+    font-weight: 700;
+    border: none;
+
+}
+
+.description-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.17rem;
+}
+
+/*?----Area-pubjiken---- */
+
+.imageFrame-3{
+    width: 250px;
+    height: 300px;
+    background-image: url(./Assets/Photos/image\ 3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.text-button-card-3{
+    position: relative;
+    top: 210px;
+    padding: 4% 3%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    background-color: rgb(71,79,137, 0.95);
+    justify-content: space-between;
+
+}
+
+.description-text p:first-child{
+    font-size: 0.9rem;
+    color: #FAFAFB;
+    font-weight: 700;
+}
+
+.description-text p:nth-child(2){
+    color: #b0b8b8;
+    font-size: 0.8rem;
+}
+
+.stars img{
+    width: 0.7rem;
+    padding-right: 0.4rem;
+}
+
+.button-download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-orange{
+    padding: 0.6rem 1rem;
+    background-color: #F4694C;
+    color: #FAFAFB;
+    font-weight: 700;
+    border: none;
+
+}
+
+.description-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.17rem;
+}
+
+/* ?----Area-garela---- */
+
+.imageFrame-4{
+    width: 250px;
+    height: 300px;
+    background-image: url(./Assets/Photos/Rectangle\ 56.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.text-button-card-4{
+    position: relative;
+    top: 210px;
+    padding: 4% 3%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    background-color: rgb(97,86,82, 0.96);
+    justify-content: space-between;
+
+}
+
+.description-text p:first-child{
+    font-size: 0.9rem;
+    color: #FAFAFB;
+    font-weight: 700;
+}
+
+.description-text p:nth-child(2){
+    color: #b0b8b8;
+    font-size: 0.8rem;
+}
+
+.stars img{
+    width: 0.7rem;
+    padding-right: 0.4rem;
+}
+
+.button-download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-orange{
+    padding: 0.6rem 1rem;
+    background-color: #F4694C;
+    color: #FAFAFB;
+    font-weight: 700;
+    border: none;
+
+}
+
+.description-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.17rem;
+}
