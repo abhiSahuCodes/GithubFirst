@@ -583,11 +583,16 @@ h2{
 .brief{
     font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
+    color: #717171;
 }
 
 .dwn-btn{
     padding: 5% 6%;
-    width: 10vw;
+    max-width: 10vw;
+    font-size: 100%;
+    background-color: #F4694C;
+    border: none;
+    color: #FDE1DB;
 }
 
 .game-brief-one{
@@ -595,8 +600,6 @@ h2{
     flex-direction: column;
     gap: 1.2rem;
     padding: 2% 0;
-    position: relative;
-    right: 1rem;
 }
 
 .game-brief-two{
@@ -618,4 +621,18 @@ h2{
     flex-direction: column;
     gap: 1.2rem;
     padding: 2% 0;
+}
+
+/* !----Third-section */
+
+.third{
+    background-color: #000308;
+}
+
+.heading-third{
+    padding: 5% 8%;
+}
+.heading-third h2{
+    color: #ffffff;
+    font-size: 2rem;
 }
