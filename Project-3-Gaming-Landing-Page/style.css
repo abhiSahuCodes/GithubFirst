@@ -641,13 +641,53 @@ h2{
 
 .gamesOfTheWorld{
     padding-bottom: 5rem;
-    margin: 5% 0 0 8%;
+    margin: 1% 0 0 8%;
     padding-bottom: 18%;
     background: url(./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg) no-repeat 0 0;
     background-position-x: right;
-    background-position-y: center;
+    background-position-y: 26.5%;
+    background-size: 70%;
 }
 
-.banner-GOTW{
-    z-index: -10;
+.poster-board{
+    display: flex;
+    gap: 5%;
 }
+
+.oneImg{
+    width: 28vw;
+    height: 70vh;
+}
+
+.rightposter-side{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    gap: 5rem;
+}
+
+.rightposter-side p{
+    color: #b0b8b8;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    position: relative;
+    top: 10vh;
+}
+
+.Imgs-two-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10%;
+}
+
+.twoImg{
+    width: 20vw;
+    height: 55vh;
+}
+
+.threeImg{
+    width: 22vw;
+    height: 40vh;
+}
+
