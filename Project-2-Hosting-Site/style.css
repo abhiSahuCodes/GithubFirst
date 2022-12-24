@@ -1,3 +1,7 @@
+html{
+    font-size: 100%;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +9,7 @@
 
 body{
     max-width: 1280px;
-    margin: auto;
+    margin: 0 auto;
     overflow-x: hidden;
 }
 /* ! Front-page */
@@ -55,6 +59,43 @@ body{
     cursor: pointer;
     background-color: #0062b8;
 }
+
+@media (max-width: 768px){
+    .nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+    .list{
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 10%;
+    width: auto;
+    text-align: center;
+    
+}
+
+    .menu{
+        display: flex;
+
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .login{
+        right: 0;
+        padding: 30% 80%;
+    }
+}
+
 
 /* & Hero-section */
 .hero{
@@ -122,6 +163,48 @@ body{
 .diaImg{
     width: 80%;
     padding-left: 10%;
+}
+
+@media (max-width: 768px){
+    .hero{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin: 8% 0 0;
+    justify-content: center;
+
+}
+
+    .heading{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-2{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .get{
+        margin-right: 0;
+        padding: 5% 8%;
+    }
+
+    .heading h1{
+        text-align: center;
+    }
+
+    .heading p{
+    padding: 3% 0 10%;
+    line-height: 1.5;
+    color: #636161;
+    font-weight: 500;
+    text-align: center;
+}
 }
 
 /* !Logo-bar */
@@ -429,6 +512,16 @@ body{
 .p-2{
     font-size: 1rem;
     color: #373636;
+}
+
+@media (max-width: 768px){
+    
+    .subscription-panel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
 }
 
 /* todo----Standard-panelbox---- */
