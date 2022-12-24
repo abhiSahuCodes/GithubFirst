@@ -14,7 +14,6 @@ body{
 
 .first{
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(./Assets/Photos/futuristic-bg.png);
-    /* font-family: 'Poppins', sans-serif; */
     background-position:center;
 }
 
@@ -702,6 +701,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2.2rem 0;
 }
 
 .start-panel{
@@ -724,10 +724,6 @@ h2{
     font-size: 0.8rem;
 }
 
-.start-button{
-    width: max-content;
-}
-
 .get-start{
     color: #FDE1DB;
     background-color: #F4694C;
@@ -735,4 +731,71 @@ h2{
     border: none;
     padding: 1rem 2.3rem;
     
+}
+
+/* !----Footer---- */
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-things{
+    background-color: #000309;
+    color: #6A6C70;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    padding: 4% 8%;
+    gap: 6%;
+}
+
+.logo-social{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.logoImgFooter{
+    width: 6rem;
+}
+
+.logo-social p{
+    font-size: 0.9rem;
+}
+
+.social-icon{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.social-icon img{
+    width: 2rem;
+}
+
+.articles, .leagues, .team, .get-in-touch{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+footer h3{
+    color: #FAFAFB;
+    font-size: 1rem;
+}
+
+.list-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.list-footer a{
+    color: #6D6E73;
+    text-decoration: none;
+}
+
+.last-emptyBox{
+    height: 10vh;
+    background-color: #000611;
+    border-top: 1.5px solid #40444D;
 }
