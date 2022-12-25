@@ -58,12 +58,12 @@ body{
 /* &----Hero---- */
 
 .hero{
-    margin: 8% 8%;
+    margin: 8% 8% 0;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     max-width: max-content;
-    padding: 0 5% 10%;
+    padding: 0 5% 20%;
 }
 
 .hero h1{
@@ -87,4 +87,21 @@ body{
     border: none;
     background-color: #6663E9;
     border-radius: 15%/50%;
+}
+
+/* &----logo-Division---- */
+
+.logo-division{
+    display: flex;
+    z-index: 10;
+    border: 2px solid red;
+    margin: -8% 3%;
+    justify-content: space-around;
+    padding: 5% 6%;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+}
+
+.logo-row{
+    width: 12%;
 }
