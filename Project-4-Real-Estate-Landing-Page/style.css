@@ -20,9 +20,10 @@ body{
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("./Photos/mainBackground.png");
     background-size: cover;
     
+    
 }
 
-
+/* &----Nav-bar----*/
 
 .nav-bar{
     border-bottom: 2px solid #6C717D;
@@ -42,7 +43,6 @@ body{
     max-width: max-content;
 }
 
-
 .list{
     display: flex;
     gap: 2rem;
@@ -52,6 +52,39 @@ body{
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
-    color: #F5F5F6;
-    
+    color: #D3D5DA;
+}
+
+/* &----Hero---- */
+
+.hero{
+    margin: 8% 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: max-content;
+    padding: 0 5% 10%;
+}
+
+.hero h1{
+    font-size: 4rem;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    max-width: fit-content;
+}
+
+.hero p{
+    font-family: 'Poppins', sans-serif;
+    color: #D3D5DA;
+}
+
+.learn{
+    max-width: max-content;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border: none;
+    background-color: #6663E9;
+    border-radius: 15%/50%;
 }
