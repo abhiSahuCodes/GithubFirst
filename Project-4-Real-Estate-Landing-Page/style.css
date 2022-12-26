@@ -195,10 +195,18 @@ body{
         background-color: #6663E9;
         border-radius: 15%/50%;
     }
+
+    .logo-division{
+        display: flex;
+        z-index: 10;
+        border: 2px solid red;
+        position: relative;
+        top: 2.5rem;
+       
+    }
 }
-
-
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
 /* !----Catalogue-second-section----*/
 
 .second{
@@ -337,4 +345,94 @@ body{
     align-self: center;
 }
 
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ~ +++++ RESPONSIVE DESIGN+++++ */
 
+/* &----Catalogue-cards---- */
+
+@media (max-width:998px){
+    .catalogue{
+        margin: 8% 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-firstone, .img-secondone, .img-thirdone{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .MixtowniaImg, .MirtawanImg, .WartawanImg{
+        width: 40rem;
+        height: 44rem;
+        object-fit: cover;
+        border-radius: 2rem;
+    }
+
+    .first-two, .second-two, .third-two{
+        position: relative;
+        top: 0;
+    }
+ 
+    .first-three, .second-one, .third-three{
+        position: relative;
+        top: 0;
+    }
+
+    .catalogue-cards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .cardbox-first{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        border-bottom: 4px solid #544f4f;
+        border-radius: 10px;
+    }
+
+    .cardbox-second{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        border-bottom: 4px solid #544f4f;
+        border-radius: 10px;
+    }
+
+    .cardbox-third{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        border-bottom: 4px solid #6C717D;
+    }
+
+    .about{
+        font-size: 2rem;
+        display: flex;
+        background-color: #fff;
+        width: 80%;
+        padding: 6% 0;
+        justify-content: space-around;
+        border-radius: 2rem;
+        margin: auto;
+        z-index: 1;
+        position: relative;
+        bottom: 5.5rem;
+    }
+
+    .detail{
+        font-size: 2rem;
+        padding: 1.2rem 4rem;
+    }
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
