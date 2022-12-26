@@ -15,11 +15,22 @@ body{
     margin: 0 auto;
 }
 
+@media (max-width: 998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 768px){
+    html{
+        font-size: 45%;
+    }
+}
+
+
 .first{
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("./Photos/mainBackground.png");
     background-size: cover;
-    
-    
 }
 
 /* &----Nav-bar----*/
@@ -107,10 +118,91 @@ body{
     width: 12%;
 }
 
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ~ +++++ RESPONSIVE DESIGN+++++ */
+
+/* &----Nav-bar----*/
+
+@media (max-width:998px){
+
+    .nav-bar{
+        border-bottom: 2px solid #6C717D;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        max-width: max-content;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logoNavImg{
+        width: 12rem;
+    }
+
+    .menu{
+        max-width: max-content;
+    }
+
+    .list{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .list-items{
+        list-style-type: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        color: #D3D5DA;
+    }
+}
+
+/* &----Hero---- */
+
+@media (max-width:998px){
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+        margin: 5% auto;
+    }
+    .hero h1{
+        font-size: 6rem;
+        color: #ffffff;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        max-width: fit-content;
+        text-align: center;
+    }
+
+    .hero p{
+        font-family: 'Poppins', sans-serif;
+        color: #D3D5DA;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .learn{
+        max-width: max-content;
+        padding: 2rem 4rem;
+        font-size: 2rem;
+        color: #ffffff;
+        border: none;
+        background-color: #6663E9;
+        border-radius: 15%/50%;
+    }
+}
+
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 /* !----Catalogue-second-section----*/
 
 .second{
-    background-color: aqua;
+    background-color: #F6F8FA;
     display: flow-root;
 }
 
@@ -139,7 +231,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     padding-bottom: 2rem;
 }
 
@@ -162,12 +254,6 @@ body{
     justify-content: space-between;
     width: 100%;
 }
-
-
-
-
-
-
 
 /* ? Images */
 
@@ -192,13 +278,7 @@ body{
     border-radius: 1rem;
 }
 
-/* hhhhh */
-
-.first-one, .second-one, .third-one{
-    /* display: flex;
-    flex-direction: column;
-     */
-}
+/* ? Diviions inside cards */
 
 .first-two, .second-two, .third-two{
     position: relative;
@@ -219,8 +299,6 @@ body{
     position: relative;
     top: 4rem;
 } 
-
-
 
 .about{
     display: flex;
@@ -258,3 +336,5 @@ body{
     height: min-content;
     align-self: center;
 }
+
+
