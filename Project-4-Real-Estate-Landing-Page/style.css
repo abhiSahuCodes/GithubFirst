@@ -104,7 +104,6 @@ body{
 .logo-division{
     display: flex;
     z-index: 10;
-    border: 2px solid red;
     position: relative;
     top: 60px;
     margin: 0 3%;
@@ -199,9 +198,10 @@ body{
     .logo-division{
         display: flex;
         z-index: 10;
-        border: 2px solid red;
         position: relative;
         top: 2.5rem;
+        max-width: 90%;
+        margin: auto;
        
     }
 }
@@ -436,3 +436,111 @@ body{
     }
 }
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+/* !----Section-third---- */
+
+.third{
+    background-color: #F6F8FA;
+    display: flow-root;
+}
+
+.booking{
+    margin: 2% 0;
+    padding: 1px;  /*For avoiding border-collapsing */
+}
+
+.modern{
+    margin: 10% 8% 4% 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.left-area-one{
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url("./Icons/featureImageBg1.svg") no-repeat 0 0;
+    background-size: contain;
+    width: 40vw;
+    height: 65vh;
+    background-position: top 7vh left;
+    position: relative;
+}
+
+.modernImg{
+    width: 27.35vw;
+    height: 57vh;
+    left: 6.7vw;
+    border-radius: 2rem;
+    position: absolute;
+}
+
+.right-area-one{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    gap: 6%;
+    position: relative;
+    top: 5rem;
+}
+
+.right-area-one h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.right-area-one p{
+    font-size: 0.8rem;
+    color: #5A5E67;
+}
+
+.bird{
+    width: fit-content;
+    padding: 4% 6%;
+    color: #ffffff;
+    background-color: #6663E9;
+    border: none;
+    border-radius: 15%/50%;
+}
+
+
+.unique{
+    margin: 10% 0 4% 8%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.right-area-two{
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url("./Icons/featureImageBg2.png") no-repeat 0 0;
+    background-size: contain;
+    width: 40vw;
+    height: 65vh;
+    background-position: top 7vh right;
+    position: relative;
+}
+
+.uniqueImg{
+    width: 27.35vw;
+    height: 57vh;
+    right: 6.7vw;
+    border-radius: 2rem;
+    position: absolute;
+}
+
+.left-area-two{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    gap: 6%;
+    position: relative;
+    top: 5rem;
+}
+
+.left-area-two h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.left-area-two p{
+    font-size: 0.8rem;
+    color: #5A5E67;
+}
