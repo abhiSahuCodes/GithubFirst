@@ -7,7 +7,7 @@
 }
 
 body{
-    max-width: 100%;
+    max-width: max-content;
     box-sizing: border-box;
     margin: 0 auto;
 }
