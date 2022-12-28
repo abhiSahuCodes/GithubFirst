@@ -7,7 +7,7 @@
 }
 
 body{
-    max-width: 2160px;
+    max-width: 100%;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -681,7 +681,7 @@ h2{
     position: relative;
     background: url(./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg) no-repeat 0 0;
     background-position-x: right;
-    background-position-y: 26.5%;
+    background-position-y: 33%;
     background-size: 70%;
     opacity: 0.5;
 }
