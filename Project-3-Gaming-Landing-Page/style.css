@@ -1,32 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
 /* font-family: 'Poppins', sans-serif; */
 
-html{
-    font-size: 100%;
-}
-
-
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
-    max-width: max-content;
+    max-width: 1440px;
     box-sizing: border-box;
     margin: 0 auto;
-}
-
-@media (max-width: 1024px){
-    html{
-        font-size: 55%;
-    }
-}
-
-@media (max-width: 480px){
-    html{
-        font-size: 40%;
-    }
 }
 
 .first{
@@ -698,7 +681,7 @@ h2{
     position: relative;
     background: url(./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg) no-repeat 0 0;
     background-position-x: right;
-    background-position-y: 33%;
+    background-position-y: 26.5%;
     background-size: 70%;
     opacity: 0.5;
 }
