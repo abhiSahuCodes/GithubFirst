@@ -510,7 +510,8 @@ body{
 
 .bird{
     width: fit-content;
-    padding: 4% 6%;
+    font-size: 0.8rem;
+    padding: 1rem 2rem;
     color: #ffffff;
     background-color: #6663E9;
     border: none;
