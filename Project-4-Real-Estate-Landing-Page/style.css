@@ -596,6 +596,7 @@ body{
     border: none;
 }
 
+
 #email::placeholder{
     font-size: 0.7rem;
     font-family: 'Poppins', sans-serif;
@@ -614,3 +615,73 @@ body{
     color: #6663E9;
     font-weight: 600;
 }
+
+/* !----Footer---- */
+
+
+footer{
+    background-color: #F6F8FA;
+    display: flow-root;
+}
+.section-footer{
+    margin: 3% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    gap: 3rem;
+}
+
+.left-side p{
+    font-size: 0.9rem;
+    color: #544f4f;
+}
+
+.logoImg-footer{
+    width: 8rem;
+}
+
+.social-media{
+    display: flex;
+    gap: 1rem;
+}
+
+.social-media img{
+    width: 2.3rem;
+}
+
+.right-side{
+    display: flex;
+    gap: 8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.right-side h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.right-side a{
+    text-decoration: none;
+    color: #544f4f;
+}
+
+.location, .contact, .legals{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;    
+}
+
+.continents, .info, .readings{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
