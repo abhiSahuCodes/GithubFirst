@@ -544,3 +544,63 @@ body{
     font-size: 0.8rem;
     color: #5A5E67;
 }
+
+/* &----Subscribe---- */
+
+.subscribe{
+    margin: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #6663E9;
+    align-items: center;
+    padding: 5%;
+    border-radius: 4rem;
+}
+
+.subscribe h2{
+    font-size: 3rem;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.subscribe p{
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    color: #F6F6FE;
+    text-align: center;
+}
+
+.form-div{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+#email{
+    padding: 0.82rem 6rem 0.82rem 2rem;
+    width: max-content;
+    background-color: #5654D1;
+    border-radius: 6%/50%;
+    border: none;
+}
+
+#email::placeholder{
+    font-size: 0.7rem;
+    font-family: 'Poppins', sans-serif;
+    margin-right: -2rem;
+    color: #A9A8E7;
+}
+
+
+.subscribe-click{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    padding: 0.6rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    color: #6663E9;
+    font-weight: 600;
+}
