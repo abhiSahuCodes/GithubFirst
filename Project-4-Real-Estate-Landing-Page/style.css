@@ -122,7 +122,7 @@ body{
 
 /* &----Nav-bar----*/
 
-@media (max-width:998px){
+@media (max-width:1024px){
 
     .nav-bar{
         border-bottom: 2px solid #6C717D;
@@ -160,7 +160,7 @@ body{
 
 /* &----Hero---- */
 
-@media (max-width:998px){
+@media (max-width:1024px){
 
     .hero{
         display: flex;
@@ -350,7 +350,7 @@ body{
 
 /* &----Catalogue-cards---- */
 
-@media (max-width:998px){
+@media (max-width:1024px){
     .catalogue{
         margin: 8% 8%;
         display: flex;
@@ -459,18 +459,28 @@ body{
 .left-area-one{
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url("./Icons/featureImageBg1.svg") no-repeat 0 0;
     background-size: contain;
-    width: 40vw;
-    height: 65vh;
-    background-position: top 7vh left;
+    width: 31rem;
+    height: 26rem;
+    background-position: top 2.5rem left;
     position: relative;
 }
 
 .modernImg{
-    width: 27.35vw;
-    height: 57vh;
-    left: 6.7vw;
+    width: 22.88rem;
+    height: 22rem;
+    left: 5.5rem;
+    top: 0.3rem;
     border-radius: 2rem;
     position: absolute;
+}
+
+@media (max-width: 1024px){
+    
+
+
+
+
+
 }
 
 .right-area-one{
@@ -512,16 +522,16 @@ body{
 .right-area-two{
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url("./Icons/featureImageBg2.png") no-repeat 0 0;
     background-size: contain;
-    width: 40vw;
-    height: 65vh;
-    background-position: top 7vh right;
+    width: 31rem;
+    height: 26rem;
+    background-position: top 2.5rem right;
     position: relative;
 }
 
 .uniqueImg{
-    width: 27.35vw;
-    height: 57vh;
-    right: 6.7vw;
+    width: 22.88rem;
+    height: 22rem;
+    right: 5.5rem;
     border-radius: 2rem;
     position: absolute;
 }
