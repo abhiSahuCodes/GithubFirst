@@ -15,7 +15,7 @@ body{
     margin: 0 auto;
 }
 
-@media (max-width: 998px){
+@media (max-width: 1024px){
     html{
         font-size: 55%;
     }
@@ -24,6 +24,12 @@ body{
 @media (max-width: 768px){
     html{
         font-size: 45%;
+    }
+}
+
+@media (max-width:480px){
+    html{
+        font-size: 35%;
     }
 }
 
