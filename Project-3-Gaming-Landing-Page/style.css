@@ -921,6 +921,12 @@ footer{
 
 .social-icon img{
     width: 2rem;
+    transition: 0.3s;
+}
+
+.social-icon img:hover{
+    cursor: pointer;
+    scale: 1.05;
 }
 
 .articles, .leagues, .team, .get-in-touch{
@@ -944,6 +950,10 @@ footer h3{
 .list-footer a{
     color: #6D6E73;
     text-decoration: none;
+}
+
+.list-footer a:hover{
+    color: #8e9097;
 }
 
 .last-emptyBox{
