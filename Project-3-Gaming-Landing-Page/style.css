@@ -592,11 +592,21 @@ h2{
     padding: 1.3rem 1.1rem;
 }
 
+.previous:hover{
+    cursor: pointer;
+    background-color: #f5c8bee4;
+}
 .next{
     background-color: #F4694C;
     border: none;
     padding: 1.3rem 1.1rem;
 }
+
+.next:hover{
+    background-color: #b0b8b8;
+    cursor: pointer;
+}
+
 
 /* &----Recommended-games-area---- */
 
@@ -674,6 +684,11 @@ h2{
     font-weight: 700;
 }
 
+.genre:hover{
+    cursor: pointer;
+    color: #ff441e;
+}
+
 .brief{
     font-family: 'Poppins', sans-serif;
     font-size: 0.65rem;
@@ -687,6 +702,13 @@ h2{
     background-color: #F4694C;
     border: none;
     color: #FDE1DB;
+    transition: 0.3s;
+}
+
+.dwn-btn:hover{
+    background-color: #ff441e;
+    cursor: pointer;
+    scale: 1.05;
 }
 
 .game-brief-one{
