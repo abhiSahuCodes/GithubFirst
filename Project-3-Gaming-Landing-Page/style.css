@@ -855,6 +855,12 @@ h2{
 .start-panel h2{
     color: #ffffff;
     font-family: "Poppins", sans-serif;
+    transition: 0.3s;
+}
+
+.start-panel h2:hover{
+    color: #ff0000;
+    scale: 1.5;
 }
 
 .start-panel p{
@@ -870,7 +876,13 @@ h2{
     font-size: 0.9rem;
     border: none;
     padding: 1rem 2.3rem;
-    
+    transition: 0.3s;
+}
+
+.get-start:hover{
+    background-color: #ff441e;
+    cursor: pointer;
+    scale: 1.05;
 }
 
 /* !----Footer---- */
