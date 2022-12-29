@@ -234,12 +234,18 @@ h2{
 /* ?----Area-soldiers */
 
 .imageFrame{
-    width: 14.17rem;
+    width: 15rem;
     height: 17rem;
     background-image: url(./Assets/Photos/image\ 2.png);
     background-position: center;
     background-size: cover;
     background-position: left 19rem center;
+    transition: 0.3s;
+}
+
+.imageFrame:hover{
+    scale: 1.05;
+    cursor: pointer;
 }
 
 .text-button-card-1{
@@ -293,11 +299,17 @@ h2{
 /* ?----Area-warriors---- */
 
 .imageFrame-2{
-    width: 250px;
-    height: 300px;
+    width: 15rem;
+    height: 17rem;
     background-image: url(./Assets/Photos/image\ 4.png);
     background-position: center;
     background-size: cover;
+    transition: 0.3s;
+}
+
+.imageFrame-2:hover{
+    scale: 1.05;
+    cursor: pointer;
 }
 
 .text-button-card-2{
@@ -338,7 +350,13 @@ h2{
     color: #FAFAFB;
     font-weight: 700;
     border: none;
+    transition: 0.3s;
+}
 
+.download-orange:hover{
+    background-color: #ff441e;
+    cursor: pointer;
+    scale: 1.05;
 }
 
 .description-text{
@@ -350,11 +368,17 @@ h2{
 /*?----Area-pubjiken---- */
 
 .imageFrame-3{
-    width: 250px;
-    height: 300px;
+    width: 15rem;
+    height: 17rem;
     background-image: url(./Assets/Photos/image\ 3.png);
     background-position: center;
     background-size: cover;
+    transition: 0.3s;
+}
+
+.imageFrame-3:hover{
+    scale: 1.05;
+    cursor: pointer;
 }
 
 .text-button-card-3{
@@ -408,11 +432,17 @@ h2{
 /* ?----Area-garela---- */
 
 .imageFrame-4{
-    width: 250px;
-    height: 300px;
+    width: 15rem;
+    height: 17rem;
     background-image: url(./Assets/Photos/Rectangle\ 56.png);
     background-position: center;
     background-size: cover;
+    transition: 0.3s;
+}
+
+.imageFrame-4:hover{
+    scale: 1.05;
+    cursor: pointer;
 }
 
 .text-button-card-4{
@@ -466,7 +496,7 @@ h2{
 /* ?----Wargame-banner---- */
 
 .wargame-banner{
-    margin: 5% 8%;
+    margin: 15% 8% 5%;
     display: flex;
     justify-content: space-between;
 }
@@ -512,6 +542,13 @@ h2{
     background-color: #F4694C;
     border: none;
     font-size: 1.05rem;
+    transition: 0.3s;
+}
+
+.explore:hover{
+    background-color: #ff441e;
+    cursor: pointer;
+    scale: 1.05;
 }
 
 .learn-more{
@@ -520,6 +557,13 @@ h2{
     font-size: 1.05rem;
     border: 2px solid #F4694C;
     background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.learn-more:hover{
+    background-color: #6A6C70;
+    cursor: pointer;
+    scale: 1.05;
 }
 
 /* &----Recommend-bar */
