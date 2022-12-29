@@ -761,7 +761,7 @@ h2{
     position: relative;
     background: url(./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg) no-repeat 0 0;
     background-position-x: right;
-    background-position-y: 26.5%;
+    background-position-y: 12rem;
     background-size: 70%;
     opacity: 0.5;
     overflow-x: hidden;
@@ -775,6 +775,13 @@ h2{
 .oneImg{
     width: 28vw;
     height: 70vh;
+    transition: 0.3s;
+}
+
+.oneImg:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    scale: 1.05;
 }
 
 .rightposter-side{
@@ -803,11 +810,25 @@ h2{
 .twoImg{
     width: 15.96rem;
     height: 21.29rem;
+    transition: 0.3s;
+}
+
+.twoImg:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    scale: 1.05;
 }
 
 .threeImg{
     width: 17.6rem;
     height: 15.48rem;
+    transition: 0.3s;
+}
+
+.threeImg:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    scale: 1.05;
 }
 
 /* &----Gamer-start */
