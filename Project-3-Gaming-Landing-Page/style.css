@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
 /* font-family: 'Poppins', sans-serif; */
 
+html{
+    font-size: 100%;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +15,20 @@ body{
     box-sizing: border-box;
     margin: 0 auto;
 }
+
+/*todo ++++++++++++++++++++++++++++++++++++++++ */
+@media (max-width: 1024px){
+    html{
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 480px){
+    html{
+        font-size: 40%;
+    }
+}
+
 
 .first{
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(./Assets/Photos/futuristic-bg.png);
@@ -71,7 +89,7 @@ body{
     border: none;
 }
 /* =============================== */
-@media (max-width: 998px){
+@media (max-width: 1024px){
     .nav-bar{
     padding: 2% 8%;
     color: #ffffff;
@@ -684,6 +702,7 @@ h2{
     background-position-y: 26.5%;
     background-size: 70%;
     opacity: 0.5;
+    overflow-x: hidden;
 }
 
 .poster-board{
@@ -716,16 +735,21 @@ h2{
     justify-content: space-between;
     align-items: flex-end;
     gap: 10%;
+    position: relative;
+    max-width: max-content;
 }
 
 .twoImg{
-    width: 20vw;
-    height: 55vh;
+    width: 15.96rem;
+    height: 21.29rem;
+    /* position: absolute; */
 }
 
 .threeImg{
-    width: 22vw;
-    height: 40vh;
+    width: 17.6rem;
+    height: 15.48rem;
+    position: absolute;
+    left: 20rem;
 }
 
 /* &----Gamer-start */
