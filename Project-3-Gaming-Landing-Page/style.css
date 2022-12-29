@@ -95,7 +95,9 @@ body{
     color: #ffffff;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
 }
 
 .img-menu{
@@ -108,7 +110,7 @@ body{
 }
 
 .logoNavImg{
-    width: 25%;
+    width: 100px;
 }
 
 .list{
@@ -236,13 +238,14 @@ h2{
     margin: 0 8% 4% 8%;
     display: flex;
     justify-content: space-between;
+    gap: 0.5rem;
 }
 
 /* ?----Area-soldiers */
 
 .imageFrame{
-    width: 250px;
-    height: 300px;
+    width: 14.17rem;
+    height: 17rem;
     background-image: url(./Assets/Photos/image\ 2.png);
     background-position: center;
     background-size: cover;
@@ -597,8 +600,8 @@ h2{
 }
 
 .game-poster-one{
-    width: 40%;
-    height: 40vh;
+    width: 11.92rem;
+    height: 15.48rem;
 }
 
 .battleImg{
@@ -607,18 +610,18 @@ h2{
 }
 
 .game-poster-two{
-    width: 40%;
-    height: 40vh;
+    width: 11.92rem;
+    height: 15.48rem;
 }
 
 .game-poster-three{
-    width: 40%;
-    height: 40vh;
+    width: 11.92rem;
+    height: 15.48rem;
 }
 
 .game-poster-four{
-    width: 40%;
-    height: 40vh;
+    width: 11.92rem;
+    height: 15.48rem;
 }
 
 .title{
@@ -642,7 +645,7 @@ h2{
 
 .dwn-btn{
     padding: 5% 6%;
-    max-width: 10vw;
+    max-width: 8rem;
     font-size: 100%;
     background-color: #F4694C;
     border: none;
@@ -728,6 +731,7 @@ h2{
     font-size: 0.8rem;
     position: relative;
     top: 10vh;
+    max-width: max-content;
 }
 
 .Imgs-two-three{
@@ -735,21 +739,16 @@ h2{
     justify-content: space-between;
     align-items: flex-end;
     gap: 10%;
-    position: relative;
-    max-width: max-content;
 }
 
 .twoImg{
     width: 15.96rem;
     height: 21.29rem;
-    /* position: absolute; */
 }
 
 .threeImg{
     width: 17.6rem;
     height: 15.48rem;
-    position: absolute;
-    left: 20rem;
 }
 
 /* &----Gamer-start */
