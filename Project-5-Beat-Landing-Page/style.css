@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    max-width: 3456px;
+    max-width: 1280px;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -19,3 +19,116 @@ body{
     background-color: #0F0F10;
 }
 
+.first{
+    margin: 0 8% 0 15%;
+    position: relative;
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+}
+
+.left-division{
+    display: flex;
+}
+
+.logo{
+    margin: 2rem 0;
+}
+
+.logoImg{
+    width: 2rem;
+}
+
+.headphone{
+   position: relative;
+   bottom: 4rem;
+}
+
+.beatsmainImg{
+    width: 16rem;
+}
+
+.right-division{
+    margin: 2rem 0 0;
+}
+
+nav{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    gap: 4rem;
+}
+
+.list-items{
+    font-size: 0.9rem;
+    color: #ffffff;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.shop{
+    padding: 1rem 3rem;
+    background-color: #1E1E21;
+    border: none;
+    color: #ffffff;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.bgc-first{
+    width: 60%;
+    height: 6rem;
+    background-image: url("./Photos/onEar.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 2rem 4rem 0;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 4rem;
+}
+
+.heading-one{
+    font-size: 4rem;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.hero h2{
+    color: #F2F2F3;
+    font-size: 1.2rem;
+}
+
+.hero p{
+    color: #a4a8ab;
+    line-height: 2;
+}
+
+.add-bag{
+    width: fit-content;
+    background-color: #1E1E21;
+    border: none;
+    color: #F2F2F3;
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0.5rem;
+}
+
+.add-bag span{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
