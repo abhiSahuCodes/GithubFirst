@@ -145,9 +145,6 @@ nav{
 
 /* !----Association---- */
 
-
-.association{
-}
 .logosImp{
     display: flex;
     justify-content: space-between;
@@ -320,3 +317,53 @@ nav{
     }
 
 /*! ======================================================================================================== */
+
+/* !----Second-section---- */
+
+.second{
+    display: flow-root;
+}
+
+.spec-case{
+    margin: 10% 20%;
+    border: 2px solid red;
+}
+
+.specifications{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.spec-picture{
+    display: flex;
+    gap: 4rem;
+}
+
+.brief{
+    color: #F2F2F3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: relative;
+}
+
+.connect, .mic{
+    padding-left: 1.5rem;
+}
+
+.detail{
+    font-size: 0.6rem;
+    padding-top: 0.1rem;
+    color: #a4a8ab;
+}
+
+.beatOneImg{
+    width: 20rem;
+    padding-top: 1.5rem;
+}
