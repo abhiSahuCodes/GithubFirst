@@ -211,6 +211,7 @@ nav{
             align-items: center;
             position: relative;
             bottom: 16rem;
+            justify-content: center;
             
         }
 
@@ -253,27 +254,32 @@ nav{
         .hero{
             display: flex;
             flex-direction: column;
-            gap: 2rem;
+            gap: 1rem;
             color: #ffffff;
             font-family: 'Poppins', sans-serif;
-            padding-bottom: 4rem;
+            padding-bottom: 2rem;
+            justify-content: center;
+            align-items: center;
         }
 
         .heading-one{
-            font-size: 4rem;
+            font-size: 3rem;
             color: #ffffff;
             font-family: 'Poppins', sans-serif;
-            margin-bottom: 1rem;
+            text-align: center;
         }
 
         .hero h2{
             color: #F2F2F3;
             font-size: 1.2rem;
+            text-align: center;
         }
 
         .hero p{
             color: #a4a8ab;
             line-height: 2;
+            font-size: 0.8rem;
+            text-align: center;
         }
 
         .add-bag{
@@ -294,6 +300,23 @@ nav{
             font-weight: 600;
         }
 
+        /* !----Association---- */
+        .association{
+            display: flex;
+            justify-content: center;
+        }
+        .logosImp{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            padding: 2rem 0rem;
+            margin: 0 auto;
+        }
+
+        .logosImp img{
+            width: 4rem;
+        }
     }
 
 /*! ======================================================================================================== */
