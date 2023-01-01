@@ -324,13 +324,16 @@ nav{
     display: flow-root;
 }
 
+
 .spec-case{
     margin: 10% 20%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
+/* &----Specifications-div---- */
+
 .specifications{
-    margin: 0 auto;
+    margin: 0 auto 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -366,4 +369,49 @@ nav{
 .beatOneImg{
     width: 20rem;
     padding-top: 1.5rem;
+}
+
+/* &----Case-div---- */
+
+.case{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.case-picture{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    align-items: center;
+}
+
+.info{
+    color: #F2F2F3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    line-height: 2;
+    color: #a4a8ab;
+}
+
+.info-para{
+    margin-bottom: 2rem;
+}
+
+.more{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    padding: 0.6rem 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    background-color: #1E1E21;
+    border: none;
+    color: #ffffff;
+    border-radius: 0.5rem;
+}
+
+.more img{
+    width: 1.1rem;
 }
