@@ -321,7 +321,7 @@ nav{
 /* !----Second-section---- */
 
 .second{
-    display: flow-root;
+    padding: 1px;
 }
 
 /* &----Spec-division---- */
@@ -420,3 +420,132 @@ nav{
 .more img{
     width: 1.1rem;
 }
+
+/* ! ===================================================================================================== */
+
+    @media all and (max-width: 1024px){
+        .spec-division{
+            /* display: flow-root; */
+            margin: 10% 5% 8%;
+            border: 2px solid red;
+        }
+
+        .specifications{
+            margin: 0 auto 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+        }
+
+        .spec-picture{
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+            width: max-content;
+            align-items: center;
+        }
+
+        .brief{
+            color: #F2F2F3;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.8rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            position: relative;
+            text-align: center;
+        }
+
+        .connect, .mic{
+            padding-left: 0;
+        }
+
+        
+
+        .detail{
+            font-size: 1rem;
+            padding-top: 0.1rem;
+            color: #a4a8ab;
+        }
+
+        .beatOneImg{
+            width: 10rem;
+            padding-top: 0rem;
+        }
+
+        /* &----Case-division---- */
+
+        .case-division{
+            border: 2px solid white;
+            margin: 0 5% 10%;
+        }
+
+        .case{
+            border: 1px solid orange;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .case-picture{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+
+        .beatCaseImg{
+            width: 10rem;
+            transform: rotate(90deg);
+        }
+
+        .info{
+            color: #F2F2F3;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            line-height: 2;
+            color: #a4a8ab;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .info-para{
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .more{
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.8rem;
+            padding: 0.6rem 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            background-color: #1E1E21;
+            border: none;
+            color: #ffffff;
+            border-radius: 0.5rem;
+            width: fit-content;
+        }
+
+        .more img{
+            width: 1.1rem;
+        }
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+/* ! ==================================================================================================== */
