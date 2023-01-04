@@ -663,9 +663,11 @@ nav{
         padding: 2rem 4rem;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         max-width: auto;
+        text-align: center;
+        gap: 2rem;
     }
 
     .text-area{
@@ -675,6 +677,8 @@ nav{
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
+        width: max-content;
+        align-items: center;
     }
 
     .discount{
@@ -686,7 +690,7 @@ nav{
     .buy{
         width: fit-content;
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         justify-content: center;
         gap: 0.5rem;
         padding: 0.5rem 1.5rem;
@@ -702,7 +706,7 @@ nav{
     }
 
     .headphone-third{
-        width: 6rem;
+        width: 10rem;
     }
 
     /* !----Fourth-section---- */
@@ -712,7 +716,7 @@ nav{
         margin:  5% 5% 0;
         display: flex;
         flex-direction: column;
-        gap: 5rem;
+        gap: 2rem;
         align-items: center;
         color: #F2F2F3;
         position: relative;
@@ -725,7 +729,8 @@ nav{
         gap: 1rem;
         position: relative;
         flex-wrap: wrap;
-        padding-left:
+        
+        
     }
 
     .selectDetails{
@@ -733,7 +738,7 @@ nav{
         justify-content: space-between;
         font-family: 'Poppins', sans-serif;
         font-size: 0.8rem;
-        width: 10rem;
+        max-width: 8rem;
         align-items: center;
         position: relative;
         padding: 6rem 1rem 0.5rem;
@@ -745,7 +750,7 @@ nav{
 
     .selections>div{
         border: 1px dotted white;
-        width: 12rem;
+        max-width: 10rem;
         display: flex;
         flex-direction: column;
         align-items: center;
