@@ -584,7 +584,7 @@ nav{
 
 .fourth{
     /* border: 2px solid red; */
-    margin:  5% 22% 0;
+    margin:  5% auto;
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -593,14 +593,13 @@ nav{
     position: relative;
     padding: 0 0 5%;
     width: fit-content;
+    
 }
 
 .selections{
-    display: flex;
-    gap: 1rem;
-    position: relative;
-    flex-wrap: wrap;
-    padding-left: 3rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 2rem;
 }
 
 .selectDetails{
