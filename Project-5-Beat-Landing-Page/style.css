@@ -328,7 +328,6 @@ nav{
 
 .spec-division{
     margin: 10% 20% 8%;
-    border: 2px solid red;
 }
 
 .specifications{
@@ -373,12 +372,10 @@ nav{
 /* &----Case-division---- */
 
 .case-division{
-    border: 2px solid white;
-    margin: 0 15% 10%;
+    margin: 0 15% 8%;
 }
 
 .case{
-    border: 1px solid orange;
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -425,9 +422,7 @@ nav{
 
     @media all and (max-width: 1024px){
         .spec-division{
-            /* display: flow-root; */
             margin: 10% 5% 8%;
-            border: 2px solid red;
         }
 
         .specifications{
@@ -476,12 +471,10 @@ nav{
         /* &----Case-division---- */
 
         .case-division{
-            border: 2px solid white;
             margin: 0 5% 10%;
         }
 
         .case{
-            border: 1px solid orange;
             display: flex;
             flex-direction: column;
             gap: 3rem;
@@ -539,7 +532,8 @@ nav{
 /* !----Third-section---- */
 
 .third{
-    margin: 10% 17%;
+    margin: 5% 17% 0%;
+    padding-bottom: 5%;
 }
 
 .immerse{
@@ -549,6 +543,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    max-width: auto;
 }
 
 .text-area{
@@ -583,3 +578,206 @@ nav{
     max-width: 1.1rem;
     font-family: 'Poppins', sans-serif;
 }
+
+/* !----Fourth-section---- */
+
+.fourth{
+    border: 2px solid red;
+    margin:  5% 22% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    color: #F2F2F3;
+    position: relative;
+    padding: 0 0 5%;
+    width: fit-content;
+}
+
+.selections{
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    flex-wrap: wrap;
+    padding-left: 3rem;
+}
+
+.selectDetails{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    width: 10rem;
+    align-items: center;
+    position: relative;
+    padding: 6rem 1rem 0.5rem;
+    bottom: 5rem;
+    background-color: #181A1B;
+    z-index: 0;
+    border-radius: 0.8rem;
+}
+
+.selections>div{
+    border: 1px dotted white;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 12.5rem;
+    margin-bottom: 2rem;
+}
+
+.hp-black{
+    z-index: 10;
+}
+
+.oneImg{
+    width: 6rem;
+}
+
+.buyBag{
+    background-color: #0A0A0B;
+    padding: 2% 4%;
+    border-radius: 0.4rem;
+    position: relative;
+    top: 0.5rem;
+}
+
+.buyBagImg{
+    width: 1rem;
+}
+
+/* !============================================================================================ */
+
+@media all and (max-width: 1024px){
+    /* !----Third-section---- */
+
+    .third{
+        margin: 5% 17% 0%;
+        padding-bottom: 5%;
+    }
+
+    .immerse{
+        background-color: #181A1B;
+        border-radius: 1rem;
+        padding: 2rem 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        max-width: auto;
+    }
+
+    .text-area{
+        font-family: 'Poppins', sans-serif;
+        color: #F2F2F3;
+        font-weight: 100;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .discount{
+        font-size: 0.8rem;
+        color: #BDC0C2;
+        font-weight: 300;
+    }
+
+    .buy{
+        width: fit-content;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 0.5rem 1.5rem;
+        background-color: #000000;
+        color: #F2F2F3;
+        font-size: 0.8rem;
+        border-radius: 0.4rem;
+    }
+
+    .shopping-bag{
+        max-width: 1.1rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .headphone-third{
+        width: 6rem;
+    }
+
+    /* !----Fourth-section---- */
+
+    .fourth{
+        border: 2px solid red;
+        margin:  5% 5% 0;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        align-items: center;
+        color: #F2F2F3;
+        position: relative;
+        padding: 0 0 5%;
+        width: fit-content;
+    }
+
+    .selections{
+        display: flex;
+        gap: 1rem;
+        position: relative;
+        flex-wrap: wrap;
+        padding-left:
+    }
+
+    .selectDetails{
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8rem;
+        width: 10rem;
+        align-items: center;
+        position: relative;
+        padding: 6rem 1rem 0.5rem;
+        bottom: 5rem;
+        background-color: #181A1B;
+        z-index: 0;
+        border-radius: 0.8rem;
+    }
+
+    .selections>div{
+        border: 1px dotted white;
+        width: 12rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 12.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .hp-black{
+        z-index: 10;
+    }
+
+    .oneImg{
+        width: 6rem;
+    }
+
+    .buyBag{
+        background-color: #0A0A0B;
+        padding: 2% 4%;
+        border-radius: 0.4rem;
+        position: relative;
+        top: 0.5rem;
+    }
+
+    .buyBagImg{
+        width: 1rem;
+    }
+
+    .choiceImg{
+        width: 10rem;
+    }
+
+
+}
+
+
