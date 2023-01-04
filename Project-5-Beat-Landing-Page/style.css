@@ -635,6 +635,15 @@ nav{
     width: 6rem;
 }
 
+
+.color{
+    color: #F2F2F3;
+}
+.price{
+    color: #C0C3C5;
+}
+
+
 .buyBag{
     background-color: #0A0A0B;
     padding: 2% 4%;
@@ -773,6 +782,14 @@ nav{
 
     .selectDetails:nth-of-type(5){
         width: 20rem !important;
+    }
+
+    .color{
+        color: #F2F2F3;
+    }
+    
+    .price{
+        color: #C0C3C5;
     }
 
 
