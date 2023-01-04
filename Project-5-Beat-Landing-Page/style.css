@@ -720,17 +720,18 @@ nav{
         align-items: center;
         color: #F2F2F3;
         position: relative;
-        padding: 0 0 5%;
         width: fit-content;
+        
     }
 
     .selections{
         display: flex;
+        flex-direction: row;
         gap: 1rem;
         position: relative;
-        flex-wrap: wrap;
-        
-        
+        flex-wrap: wrap;    
+        padding: 0;
+        justify-content: center;
     }
 
     .selectDetails{
@@ -750,7 +751,7 @@ nav{
 
     .selections>div{
         border: 1px dotted white;
-        max-width: 10rem;
+        width: 10rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -761,6 +762,21 @@ nav{
     .hp-black{
         z-index: 10;
     }
+    
+    .night-black, .blue{
+        position: relative;
+        bottom: 2.8rem;
+    }
+    .twilight-gray{
+        position: relative;
+        bottom: 5rem;
+        width: 21rem !important; 
+    }
+
+    .selectDetails:nth-of-type(5){
+        width: 20rem !important;
+    }
+
 
     .oneImg{
         width: 6rem;
