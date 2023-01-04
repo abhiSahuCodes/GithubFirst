@@ -572,6 +572,7 @@ nav{
     color: #F2F2F3;
     font-size: 0.8rem;
     border-radius: 0.4rem;
+    border: none;
 }
 
 .shopping-bag{
@@ -582,7 +583,7 @@ nav{
 /* !----Fourth-section---- */
 
 .fourth{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin:  5% 22% 0;
     display: flex;
     flex-direction: column;
@@ -618,7 +619,7 @@ nav{
 }
 
 .selections>div{
-    border: 1px dotted white;
+    /* border: 1px dotted white; */
     width: 12rem;
     display: flex;
     flex-direction: column;
@@ -641,6 +642,7 @@ nav{
     border-radius: 0.4rem;
     position: relative;
     top: 0.5rem;
+    border: none;
 }
 
 .buyBagImg{
@@ -712,7 +714,7 @@ nav{
     /* !----Fourth-section---- */
 
     .fourth{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         margin:  5% 5% 0;
         display: flex;
         flex-direction: column;
@@ -750,7 +752,7 @@ nav{
     }
 
     .selections>div{
-        border: 1px dotted white;
+        /* border: 1px dotted white; */
         width: 10rem;
         display: flex;
         flex-direction: column;
@@ -763,13 +765,9 @@ nav{
         z-index: 10;
     }
     
-    .night-black, .blue{
-        position: relative;
-        bottom: 2.8rem;
-    }
     .twilight-gray{
-        position: relative;
-        bottom: 5rem;
+        /* position: relative;
+        bottom: 5rem; */
         width: 21rem !important; 
     }
 
