@@ -50,6 +50,12 @@ body{
 
 .beatsmainImg{
     width: 16rem;
+    transition: 0.3s;
+}
+
+.beatsmainImg:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 /* &----Right-Division---- */
@@ -77,6 +83,11 @@ nav{
     font-weight: 600;
 }
 
+.list-items:hover{
+    color: #b2afaf;
+    cursor: pointer;
+}
+
 .shop{
     padding: 1rem 3rem;
     background-color: #1E1E21;
@@ -84,6 +95,12 @@ nav{
     color: #ffffff;
     font-size: 0.8rem;
     border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+.shop:hover{
+    transform: scale(0.95);
+    cursor: pointer;
 }
 
 /* &----Background-first---- */
@@ -95,6 +112,11 @@ nav{
     background-repeat: no-repeat;
     background-size: contain;
     margin: 2rem 4rem 0;
+    transition: 0.3s;
+}
+
+.bgc-first:hover{
+    filter: invert(0.8);
 }
 
 /* &----Hero---- */
@@ -136,6 +158,12 @@ nav{
     align-items: center;
     font-family: 'Poppins', sans-serif;
     border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+.add-bag:hover{
+    transform: scale(0.95);
+    cursor: pointer;
 }
 
 .add-bag span{
@@ -152,6 +180,15 @@ nav{
     width: 70%;
     padding: 3rem 0rem;
     margin: 0 auto;
+}
+
+.logosImp img{
+    transition: 0.3s;
+}
+
+.logosImp img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 
@@ -918,6 +955,7 @@ input {
         padding: 0 0 10% 0;
         gap: 8rem;
         position: relative;
+        width: 80%;
     }
 
     .twtLogoImg{
@@ -927,7 +965,7 @@ input {
     .topArrow{
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        align-items: center;
         position: relative;
     }
 
@@ -961,6 +999,6 @@ input {
         position: relative;
         top: 2rem;
     }
-    
-
 }
+
+/* !-----------------------Finished------------------------------------ */
