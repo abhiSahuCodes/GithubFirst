@@ -907,6 +907,19 @@ footer{
     justify-content: space-around;
 }
 
+.twtLogoImg:hover{
+    filter: invert(1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btLogoImg:hover{
+    filter: invert(1);
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .pdt-spt{
     color: #F2F2F3;
     font-family: 'Poppins', sans-serif;
@@ -927,6 +940,12 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+
+.list-pdt li:hover, .list-spt li:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .products, .support{
@@ -973,15 +992,34 @@ input {
     align-items: center;
 }
 
+#subs:hover{
+    transform: scale(0.95);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 .social{
     display: flex;
     gap: 1rem;
+}
+
+.social img:hover{
+    transform: scale(0.95);
+    filter: invert(1);
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .topArrow{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.topArrow:hover{
+    filter: invert(1);
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 /* !========================================================================================= */
