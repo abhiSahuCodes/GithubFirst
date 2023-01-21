@@ -41,8 +41,10 @@ body {
 /*!----First-section----  */
 
 .first {
-    border: 2px solid red;
     margin-top: 2%;
+    background-image: linear-gradient(#FEFFFF, #E3F1FF);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 95%);
+    padding-bottom: 8%;
 }
 
 .nav-hero {
@@ -53,13 +55,14 @@ body {
     display: flex;
     font-family: 'Montserrat', sans-serif;
     justify-content: space-between;
-    margin: 0 15%;
+    margin: 0 12%;
     align-items: center;
 }
 
 .menu-button {
     display: flex;
     gap: 3rem;
+    align-items: center;
 }
 
 .menu {
@@ -73,9 +76,99 @@ body {
     font-weight: 600;
 }
 
+.arrow-down {
+    border: solid #545252;
+    border-width: 0 1.5px 1.5px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    position: relative;
+    left: 0.2rem;
+    bottom: 0.1rem;
+}
+
+.trial {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #6F2AD0;
+    border-width: 1.5px;
+    border-radius: 2rem;
+    border-color: #6F2AD0;
+    background-color: transparent;
+    outline: none;
+}
+
+
 .hero {
     display: flex;
-    margin: 5% 15% 4% 15%;
+    margin: 5% 12% 4% 12%;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.first-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.stars {
+    margin-right: 0.8rem;
+    width: 1.2rem;
+}
+.version {
+    display: flex;
+    background-color: #F7F1FF;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #6F2AD0;
+    width: fit-content;
+    border-radius: 3rem;
+}
+
+.release a {
+    color: #6F2AD0;
+}
+
+.head-one {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.info-one {
+    color: #7A7F84;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.button-pair {
+    display: flex;
+    gap: 2rem;
+}
+
+.free {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FEFEFF;
+    border-width: 1.5px;
+    border-radius: 2rem;
+    border: none;
+    background-color: #6F2AD0;
+    outline: none;
+}
+
+.more {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #6F2AD0;
+    border-width: 1.5px;
+    border-radius: 2rem;
+    border: none;
+    background-color: #FEFEFF;
 }
