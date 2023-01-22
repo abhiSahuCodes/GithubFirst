@@ -124,8 +124,8 @@ body {
 .version {
     display: flex;
     background-color: #F7F1FF;
-    padding: 1rem;
-    font-size: 1.2rem;
+    padding: 1rem 1.4rem;
+    font-size: 0.8rem;
     font-weight: 600;
     color: #6F2AD0;
     width: fit-content;
@@ -315,3 +315,131 @@ body {
 
 }
 /*!==============================================================  */
+
+/*!----Second-section----*/
+
+.second {
+    border: 2px solid red;
+}
+
+/*&----second-one----*/
+
+.second-one {
+    /* border: 2px solid blue; */
+    margin: 2% 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    gap: 2rem;
+}
+
+.capsule {
+    display: flex;
+    width: fit-content;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 3rem;
+    gap: 1rem;
+    background-color: #F7F0FF;
+    align-items: center;
+    color: #6F2AD0;
+}
+
+.awesome {
+    width: 1.4rem;
+}
+
+.heading-second-one {
+    font-size: 2rem;
+}
+
+.lorem {
+    font-size: 1rem;
+    text-align: center;
+    color: #9494AB;
+    font-weight: 500;
+}
+
+.features {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mini-head {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.mini-info {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #9494AB;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.features div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.features div img {
+    width: 4rem;
+}
+
+/*&----second-two----*/
+
+.second-two {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 12%;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.peculiar {
+    color: #9494AB;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.info-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: fit-content;
+}
+
+/*&----second-three----*/
+
+.second-three {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 5% 8% 5% 12%;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flowImg {
+    width: 30rem;
+}
+
+.info-right {
+
+}
+
+.peculiar {
+
+}
