@@ -675,3 +675,33 @@ body {
     width: 8rem;
 }
 
+/*!===========================================================================  */
+
+@media all and (max-width: 1230px) {
+/*!---- Third-section---- */
+
+            .third {
+                padding: 15% 5%;
+                clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+            }
+
+            .profile { 
+                font-size: 1.5rem;
+            }
+
+            .heading-third {
+                font-size: 2rem;
+            }
+
+            .heading-third br {
+                display: inline;
+                content: ' ';
+                clear: none;
+            }
+
+            .heading-third br::after {
+                content: ' ';
+            }
+}
+
+/*!===========================================================================  */
