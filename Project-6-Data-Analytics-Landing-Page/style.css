@@ -634,7 +634,7 @@ body {
 
 .third {
     background-color: pink;
-    margin: 10% 0 10%;
+    margin: 2% 0 8%;
     clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
     display: flex;
     flex-direction: column;
@@ -665,7 +665,7 @@ body {
 
 .logo-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     border-top: 2px solid #cac6c6a4;
     padding-top: 2rem;
@@ -705,3 +705,125 @@ body {
 }
 
 /*!===========================================================================  */
+
+/* !----Fourth-section---- */
+
+.fourth {
+    margin: 5% 12%;
+    /* border: 2px solid pink; */
+    padding: 3% 0;
+    display: flex;
+    gap: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+}
+
+.fourth-left {
+    /* border: 1px solid orange; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.fourth-left h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.line{
+    display:block; 
+}
+
+.line p{
+    font-size: 1rem; 
+    text-align: center; 
+    border-bottom: 2px solid #E7E7E7; 
+    position: relative; 
+}
+
+.line p span {
+    background-color: #FFFFFF; 
+    position: relative; 
+    top: 0.625rem; 
+    padding: 0 0.625rem;
+    color: #a6a6a6;
+    font-weight: 500;
+}
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5rem;
+    column-gap: 3rem;
+    margin-top: 2rem;
+}
+
+.fourth-right {
+    /* border: 1px solid orangered; */
+    padding: 0 2%;
+    background-color: #F9F0FF;
+    width: 40%;
+    border-radius: 0.4rem;
+}
+
+.envelope-box {
+    width: 95%;
+    /* border: 1px solid greenyellow; */
+    margin: 0 auto;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 6%;
+    position: relative;
+    bottom: 12%;
+    box-shadow: 5px 5px 5px 2px #F6F6F8;
+    border-radius: 0.4rem;
+}
+
+.envelope-box h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 4% 0 0;
+}
+
+.fourth-button {
+    color: #ffffff;
+    background-color: #6F2AD0;
+    border: none;
+    font-size: 1rem;
+    padding: 0.6rem 5.7rem;
+    border-radius: 0.4rem;
+}
+
+.form-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-list li {
+    list-style-type: none;
+
+}
+
+.form-list input {
+    font-size: 1rem;
+    padding: 0.6rem 6.1rem 0.6rem 1.1rem;
+    border-radius: 0.4rem;
+    outline: none;
+    border: 1.5px solid #ede8e8;
+}
+
+.choice {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.border-line {
+    width: 80%;
+    border: 1.4px solid #E7E7E7;
+}
