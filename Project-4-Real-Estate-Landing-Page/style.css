@@ -11,11 +11,12 @@ html{
 }
 
 body{
-    max-width: 2160px;
+    max-width: 1440px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1230px){
     html{
         font-size: 55%;
     }
@@ -123,95 +124,118 @@ body{
     width: 12%;
 }
 
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/*!==========================================================================  */
 /* ~ +++++ RESPONSIVE DESIGN+++++ */
 
 /* &----Nav-bar----*/
 
-@media (max-width:1024px){
+@media (max-width: 1230px){
 
-    .nav-bar{
-        border-bottom: 2px solid #6C717D;
-        display: flex;
-        flex-direction: column;
-        gap: 3rem;
-        max-width: max-content;
-        margin: auto;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .logoNavImg{
-        width: 12rem;
-    }
-
-    .menu{
-        max-width: max-content;
-    }
-
-    .list{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        align-items: center;
-    }
-
-    .list-items{
-        list-style-type: none;
-        font-family: 'Poppins', sans-serif;
-        font-size: 1.5rem;
-        color: #D3D5DA;
-    }
+            .nav-bar{
+                border-bottom: 2px solid #6C717D;
+                display: flex;
+                flex-direction: column;
+                gap: 3rem;
+                max-width: max-content;
+                margin: auto;
+                align-items: center;
+                justify-content: center;
+            }
+        
+            .logoNavImg{
+                width: 20rem;
+            }
+        
+            .menu{
+                max-width: max-content;
+            }
+        
+            .list{
+                display: flex;
+                flex-direction: column;
+                
+                gap: 2rem;
+                align-items: center;
+            }
+        
+            .list-items{
+                list-style-type: none;
+                font-family: 'Poppins', sans-serif;
+                font-size: 3rem;
+                color: #D3D5DA;
+            }
 }
 
 /* &----Hero---- */
 
-@media (max-width:1024px){
+@media (max-width: 1230px){
 
-    .hero{
-        display: flex;
-        flex-direction: column;
-        gap: 3rem;
-        align-items: center;
-        margin: 5% auto;
-    }
-    .hero h1{
-        font-size: 6rem;
-        color: #ffffff;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        max-width: fit-content;
-        text-align: center;
-    }
+            .hero{
+                display: flex;
+                flex-direction: column;
+                gap: 3rem;
+                align-items: center;
+                width: 100%;
+                margin: 5% auto;
+            }
+            .hero h1{
+                font-size: 6rem;
+                color: #ffffff;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 600;
+                max-width: fit-content;
+                text-align: center;
+            }
 
-    .hero p{
-        font-family: 'Poppins', sans-serif;
-        color: #D3D5DA;
-        font-size: 1.6rem;
-        text-align: center;
-    }
+            .hero h1 br {
+                display: inline;
+                content: ' ';
+                clear: none;
+            }
 
-    .learn{
-        max-width: max-content;
-        padding: 2rem 4rem;
-        font-size: 2rem;
-        color: #ffffff;
-        border: none;
-        background-color: #6663E9;
-        border-radius: 15%/50%;
-    }
+            .hero h1 br::after {
+                content: ' ';
+            }
+        
+            .hero p{
+                font-family: 'Poppins', sans-serif;
+                color: #D3D5DA;
+                font-size: 3rem;
+                text-align: center;
+            }
+            
+            .hero p br {
+                display: inline;
+                content: ' ';
+                clear: none;
+            }
 
-    .logo-division{
-        display: flex;
-        z-index: 10;
-        position: relative;
-        top: 2.5rem;
-        max-width: 90%;
-        margin: auto;
-       
-    }
+            .hero p br::after {
+                content: ' ';
+            }
+
+            .learn{
+                max-width: max-content;
+                padding: 2rem 4rem;
+                font-size: 3rem;
+                color: #ffffff;
+                border: none;
+                background-color: #6663E9;
+                border-radius: 15%/50%;
+            }
+        
+            .logo-division{
+                display: flex;
+                z-index: 10;
+                position: relative;
+                top: 2.5rem;
+                max-width: 90%;
+                margin: auto;
+            
+            }
 }
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+/*!==========================================================================  */
 
 /* !----Catalogue-second-section----*/
 
@@ -351,97 +375,94 @@ body{
     align-self: center;
 }
 
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/*!==========================================================================  */
 /* ~ +++++ RESPONSIVE DESIGN+++++ */
 
 /* &----Catalogue-cards---- */
 
-@media (max-width:1024px){
-    .catalogue{
-        margin: 8% 8%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .img-firstone, .img-secondone, .img-thirdone{
-        display: flex;
-        justify-content: center;
+@media (max-width: 1230px){
+            .catalogue{
+                margin: 8% 8%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
         
-    }
-
-    .MixtowniaImg, .MirtawanImg, .WartawanImg{
-        width: 40rem;
-        height: 44rem;
-        object-fit: cover;
-        border-radius: 2rem;
-    }
-
-    .first-two, .second-two, .third-two{
-        position: relative;
-        top: 0;
-    }
- 
-    .first-three, .second-one, .third-three{
-        position: relative;
-        top: 0;
-    }
-
-    .catalogue-cards{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 3rem;
-        padding-bottom: 2rem;
-    }
-
-    .cardbox-first{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: auto;
-        border-bottom: 4px solid #544f4f;
-        border-radius: 10px;
-    }
-
-    .cardbox-second{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: auto;
-        border-bottom: 4px solid #544f4f;
-        border-radius: 10px;
-    }
-
-    .cardbox-third{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: auto;
-        border-bottom: 4px solid #6C717D;
-    }
-
-    .about{
-        font-size: 2rem;
-        display: flex;
-        background-color: #fff;
-        width: 80%;
-        padding: 6% 0;
-        justify-content: space-around;
-        border-radius: 2rem;
-        margin: auto;
-        z-index: 1;
-        position: relative;
-        bottom: 5.5rem;
-    }
-
-    .detail{
-        font-size: 2rem;
-        padding: 1.2rem 4rem;
-    }
+            .img-firstone, .img-secondone, .img-thirdone{
+                display: flex;
+                justify-content: center;
+                
+            }
+        
+            .MixtowniaImg, .MirtawanImg, .WartawanImg{
+                width: 40rem;
+                height: 44rem;
+                object-fit: cover;
+                border-radius: 2rem;
+            }
+        
+            .first-two, .second-two, .third-two{
+                position: relative;
+                top: 0;
+            }
+        
+            .first-three, .second-one, .third-three{
+                position: relative;
+                top: 0;
+            }
+        
+            .catalogue-cards{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 3rem;
+                padding-bottom: 2rem;
+            }
+        
+            .cardbox-first{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin: auto;
+                border-radius: 10px;
+            }
+        
+            .cardbox-second{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin: auto;
+                border-radius: 10px;
+            }
+        
+            .cardbox-third{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin: auto;
+            }
+        
+            .about{
+                font-size: 2rem;
+                display: flex;
+                background-color: #fff;
+                width: 60%;
+                padding: 6% 0;
+                justify-content: space-around;
+                border-radius: 2rem;
+                margin: auto;
+                z-index: 1;
+                position: relative;
+                bottom: 5.5rem;
+            }
+        
+            .detail{
+                font-size: 2rem;
+                padding: 1.2rem 4rem;
+            }
 }
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/*!==========================================================================  */
 
 /* !----Section-third---- */
 
@@ -480,14 +501,6 @@ body{
     position: absolute;
 }
 
-@media (max-width: 1024px){
-    
-
-
-
-
-
-}
 
 .right-area-one{
     display: flex;
@@ -595,14 +608,14 @@ body{
     align-items: center;
 }
 
-#email{
+input{
     padding: 0.82rem 6rem 0.82rem 2rem;
     width: max-content;
     background-color: #5654D1;
     border-radius: 6%/50%;
     border: none;
+    outline: none;
 }
-
 
 #email::placeholder{
     font-size: 0.7rem;
@@ -622,6 +635,43 @@ body{
     color: #6663E9;
     font-weight: 600;
 }
+
+
+/*!==========================================================================  */
+/* !----Section-third---- */
+
+@media all and (max-width: 1230px) {
+
+..modern{
+    margin: 10% 0% 4% 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.right-area-one h2 {
+    font-size: 3rem;
+}
+
+.right-area-one p {
+    font-size: 1.2rem;
+}
+
+.right-area-one p br {
+    display: inline;
+    content: ' ';
+    clear: none;
+}
+
+.right-area-one p br::after {
+    content: ' ';
+}
+
+.right-area-two
+
+}
+
+/*!==========================================================================  */
 
 /* !----Footer---- */
 
