@@ -188,7 +188,7 @@ body {
 
 
 
-/*!==============================================================  */
+/*!===========================================================================  */
 
 @media all and (max-width: 1230px) {
 
@@ -315,7 +315,7 @@ body {
             }
 
 }
-/*!==============================================================  */
+/*!===========================================================================  */
 
 /*!----Second-section----*/
 
@@ -441,7 +441,7 @@ body {
     width: 30rem;
 }
 
-/*!==================================================================================  */
+/*!===========================================================================  */
 
 @media all and (max-width: 1230px) {
     /*!----Second-section----*/
@@ -628,7 +628,7 @@ body {
                 width: 32rem;
             }
 }
-/*!==================================================================================  */
+/*!===========================================================================  */
 
 /*!---- Third-section---- */
 
@@ -827,3 +827,103 @@ body {
     width: 80%;
     border: 1.4px solid #E7E7E7;
 }
+
+/*!===========================================================================  */
+
+@media all and (max-width: 1230px) {
+            /* !----Fourth-section---- */
+
+            .fourth {
+                margin: 5% auto;
+                flex-direction: column;
+                gap: 10rem;
+                align-items: center;
+                height: fit-content;
+            }
+
+            .fourth-left {
+                width: 90%;
+                align-items: center;
+            }
+            
+            .fourth-left h2 {
+                font-size: 3rem;
+                width: 80vw;
+                margin: 0 auto;
+                text-align: center;  
+            }
+
+            .line{
+                display:block; 
+            }
+
+            .line p{
+                font-size: 2rem; 
+                width: 70vw;
+            }
+
+            .line p span {
+                top: 1.3rem; 
+            }
+
+            .fourth-right {
+                width: 70%;
+                border-radius: 0.4rem;
+                position: relative;
+            }
+
+            .envelope-box {
+                width: 95%;
+                margin: 0 auto;
+                gap: 1.5rem;
+                padding-top: 6%;
+                padding-bottom: 10%;
+                bottom: 2.5rem;
+                box-shadow: 3px 3px 10px 3px #F6F6F8;
+                border-radius: 0.4rem;
+            }
+
+            .envelope-box h3 {
+                font-size: 1.8rem;
+                font-weight: 600;
+                padding: 4% 0 0;
+                margin-bottom: 2rem;
+            }
+
+            .fourth-button {
+                border: none;
+                font-size: 2rem;
+                padding: 0.6rem 8rem;
+            }
+
+            .form-list li {
+                list-style-type: none;
+            
+            }
+
+            .form-list input {
+                font-size: 2rem;
+                padding: 0.6rem 6rem 0.6rem 1.1rem;
+            }
+
+            .choice {
+                font-size: 1.5rem;
+                margin: 1rem 0;
+            }
+
+            .google-signInImg {
+                width: 50%;
+            }
+
+            .border-line {
+                width: 80%;
+                border: 1.4px solid #E7E7E7;
+                margin: 1rem 0;
+            }
+            
+            .account-login {
+                font-size: 2rem;
+            }
+}
+
+/*!===========================================================================  */
