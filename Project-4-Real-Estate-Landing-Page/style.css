@@ -642,7 +642,7 @@ input{
 
 @media all and (max-width: 1230px) {
 
-..modern{
+.modern{
     margin: 10% 0% 4% 0;
     display: flex;
     justify-content: space-between;
@@ -654,21 +654,15 @@ input{
 }
 
 .right-area-one p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
-.right-area-one p br {
-    display: inline;
-    content: ' ';
-    clear: none;
+.left-area-two h2 {
+    font-size: 3rem;
 }
 
-.right-area-one p br::after {
-    content: ' ';
-}
-
-.right-area-two
-
+.left-area-two p {
+    font-size: 1.1rem;
 }
 
 /*!==========================================================================  */
