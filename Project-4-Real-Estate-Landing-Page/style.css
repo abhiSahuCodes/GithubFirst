@@ -609,7 +609,7 @@ body{
 }
 
 input{
-    padding: 0.82rem 6rem 0.82rem 2rem;
+    padding: 1rem 10rem 1rem 2rem;
     width: max-content;
     background-color: #5654D1;
     border-radius: 6%/50%;
@@ -618,7 +618,7 @@ input{
 }
 
 #email::placeholder{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-family: 'Poppins', sans-serif;
     margin-right: -2rem;
     color: #A9A8E7;
@@ -628,7 +628,7 @@ input{
 .subscribe-click{
     font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
-    padding: 0.6rem 2rem;
+    padding: 0.8rem 2rem;
     border: none;
     border-radius: 2rem;
     background-color: #ffffff;
@@ -638,10 +638,8 @@ input{
 
 
 /*!==========================================================================  */
-/* !----Section-third---- */
-
 @media all and (max-width: 1230px) {
-
+            /* !----Section-third---- */
             .modern{
                 margin: 10% 0% 4% 0;
                 display: flex;
@@ -745,72 +743,69 @@ input{
                 margin: 0 2%;
             }
 
+            /* &----Subscribe---- */
 
-/* &----Subscribe---- */
+            .subscribe{
+                margin: 10% 5% 5%;
+            }
 
-.subscribe{
-    margin: 10% 5% 5%;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    background-color: #6663E9;
-    align-items: center;
-    padding: 5%;
-    border-radius: 4rem;
+            .subscribe h2{
+                font-size: 3.8rem;
+                color: #ffffff;
+            }
+
+            .subscribe h2 br {
+                display: inline;
+                content: ' ';
+                clear: none;    
+            }
+
+            .subscribe h2 br::after {
+                content: ' ';
+            }
+
+            .subscribe p{
+                font-size: 2rem;
+                margin: 0 5%;
+            }
+
+            .subscribe p br {
+                display: inline;
+                content: ' ';
+                clear: none;    
+            }
+
+            .subscribe p br::after {
+                content: ' ';
+            }
+
+            .form-div{
+                display: flex;
+                gap: 2rem;
+                align-items: center;
+            }
+
+            input{
+                padding: 1rem 4rem 1rem 2rem;
+                width: max-content;
+                background-color: #5654D1;
+                border-radius: 6%/50%;
+            }
+
+            #email::placeholder{
+                font-size: 1.5rem;
+                margin-right: -2rem;
+            }
+
+
+            .subscribe-click{
+                font-size: 1.5rem;
+                padding: 1rem 2rem;
+            }            
 }
-
-.subscribe h2{
-    font-size: 3rem;
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-}
-
-.subscribe p{
-    font-size: 0.8rem;
-    font-family: 'Poppins', sans-serif;
-    color: #F6F6FE;
-    text-align: center;
-}
-
-.form-div{
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-}
-
-input{
-    padding: 0.82rem 6rem 0.82rem 2rem;
-    width: max-content;
-    background-color: #5654D1;
-    border-radius: 6%/50%;
-    border: none;
-    outline: none;
-}
-
-#email::placeholder{
-    font-size: 0.7rem;
-    font-family: 'Poppins', sans-serif;
-    margin-right: -2rem;
-    color: #A9A8E7;
-}
-
-
-.subscribe-click{
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.8rem;
-    padding: 0.6rem 2rem;
-    border: none;
-    border-radius: 2rem;
-    background-color: #ffffff;
-    color: #6663E9;
-    font-weight: 600;
-}            
-
 /*!==========================================================================  */
 
 /* !----Footer---- */
-
 
 footer{
     background-color: #F6F8FA;
@@ -878,3 +873,48 @@ footer{
     text-decoration: none;
 }
 
+/*!==========================================================================  */
+@media all and (max-width: 1230px) {
+/* !----Footer---- */
+
+.section-footer{
+    margin: 3% 2%;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.logoImg-footer{
+    width: 28rem;
+}
+
+.left-side p{
+    font-size: 2.4rem;
+}
+
+.social-media img{
+    width: 6rem;
+}
+
+.right-side h3{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.continents, .info, .readings{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+}
+/*!==========================================================================  */
