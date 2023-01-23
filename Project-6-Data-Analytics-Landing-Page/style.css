@@ -828,6 +828,16 @@ body {
     border: 1.4px solid #E7E7E7;
 }
 
+.account-login {
+    color: #9696AC;
+    font-weight: 500;
+}
+
+.account-login span {
+    color: #6F2AD0;
+    font-weight: 600;
+}
+
 /*!===========================================================================  */
 
 @media all and (max-width: 1230px) {
@@ -927,3 +937,98 @@ body {
 }
 
 /*!===========================================================================  */
+
+/*!----Footer---- */
+
+footer {
+    display: flex;
+    padding: 5% 9% 5% 14%;
+    justify-content: space-between;
+    gap: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FBFCFF;
+}
+
+.footer-logoSocial {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footerLogoImg {
+    width: 8rem;
+    padding-top: 1rem;
+}
+
+.footer-para {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #282727;
+}
+
+.social {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 3rem;
+}
+
+.footer-links {
+    font-size: 0.8rem;
+}
+
+.footer-links>div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.miniLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.miniLinks a {
+    text-decoration: none;
+    color: #282727;
+    font-weight: 600;
+}
+
+.footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-form li {
+    list-style-type: none;
+}
+
+.footer-form input {
+    padding: 0.6rem 2.5rem 0.6rem 0.9rem;
+    outline: none;
+    border: none;
+    box-shadow: -4px 5px 5px  #F2F3F6, 4px 5px 5px  #F2F3F6;
+}
+
+#e-mail::placeholder {
+    color: #9191A8;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.footer-sendImg {
+    position: absolute;
+    bottom: 0.65rem;
+    right: 0.8rem;
+}
