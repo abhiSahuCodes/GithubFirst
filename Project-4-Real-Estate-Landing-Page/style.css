@@ -72,6 +72,12 @@ body{
     color: #D3D5DA;
 }
 
+.list-items:hover {
+    cursor: pointer;
+    color: #a3a4a6;
+    transition: 0.3s;
+}
+
 /* &----Hero---- */
 
 .hero{
@@ -104,6 +110,12 @@ body{
     border: none;
     background-color: #6663E9;
     border-radius: 15%/50%;
+}
+
+.learn:hover {
+    background-color: #4947eb;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 /* &----logo-Division---- */
@@ -375,6 +387,12 @@ body{
     align-self: center;
 }
 
+.detail:hover {
+    background-color: #4947eb;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 /*!==========================================================================  */
 /* ~ +++++ RESPONSIVE DESIGN+++++ */
 
@@ -531,6 +549,11 @@ body{
     border-radius: 2rem;
 }
 
+.bird:hover {
+    background-color: #4947eb;
+    transition: 0.3s;
+    cursor: pointer;
+}
 
 .unique{
     margin: 10% 0 4% 8%;
@@ -634,6 +657,13 @@ input{
     background-color: #ffffff;
     color: #6663E9;
     font-weight: 600;
+}
+
+.subscribe-click:hover {
+    background-color: #b9b5b5;
+    color: #ffffff;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 
@@ -843,6 +873,12 @@ footer{
     width: 2.3rem;
 }
 
+.social-media img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
 .right-side{
     display: flex;
     gap: 8rem;
@@ -877,44 +913,44 @@ footer{
 @media all and (max-width: 1230px) {
 /* !----Footer---- */
 
-.section-footer{
-    margin: 3% 2%;
-    flex-direction: column;
-    gap: 5rem;
-}
+            .section-footer{
+                margin: 3% 2%;
+                flex-direction: column;
+                gap: 5rem;
+            }
 
-.left-side{
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    align-items: center;
-}
+            .left-side{
+                display: flex;
+                flex-direction: column;
+                gap: 3rem;
+                align-items: center;
+            }
 
-.logoImg-footer{
-    width: 28rem;
-}
+            .logoImg-footer{
+                width: 28rem;
+            }
 
-.left-side p{
-    font-size: 2.4rem;
-}
+            .left-side p{
+                font-size: 2.4rem;
+            }
 
-.social-media img{
-    width: 6rem;
-}
+            .social-media img{
+                width: 6rem;
+            }
 
-.right-side h3{
-    font-size: 3.5rem;
-    text-align: center;
-}
+            .right-side h3{
+                font-size: 3.5rem;
+                text-align: center;
+            }
 
-.continents, .info, .readings{
-    display: flex;
-    flex-direction: column;
-    gap: 1.8rem;
-    font-size: 2rem;
-    text-decoration: none;
-    text-align: center;
-}
+            .continents, .info, .readings{
+                display: flex;
+                flex-direction: column;
+                gap: 1.8rem;
+                font-size: 2rem;
+                text-decoration: none;
+                text-align: center;
+            }
 
 }
 /*!==========================================================================  */
